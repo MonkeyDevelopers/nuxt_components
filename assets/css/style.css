@@ -35,14 +35,7 @@
     border: 3px solid #ffffff;
   }
 
-
-
-
-
-
-
   /* transitions */
-  
 
   .fade-enter-active,
   .fade-leave-active {
@@ -68,4 +61,25 @@
   .slide-fade-leave-to {
     transform: translateX(100px);
     opacity: 0;
+  }
+
+  
+  /* color modes */
+  
+  .dark-mode .layout_body {
+    background-color: #171717;
+  }
+  
+  .dark-mode body {
+    background-color: #171717;
+    transition: .3s;
+  }
+  
+  .light-mode body {
+    transition: .3s;
+    background-color: #ffffff;
+  }
+  
+  .dark-mode h2 {
+    color: white !important;
   }

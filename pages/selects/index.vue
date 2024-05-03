@@ -5,7 +5,6 @@
    {{ selectedValue }}
    <div class="content">
       <selects-select v-model="selectedValue" />
-      <input type="text" placeholder="oieee">
    </div>
    
    
